@@ -33,10 +33,10 @@ var config = {
   // Specify the path of your content folder where all your '.md' files are located
   // Fix: Needs trailing slash for now!
   // Fix: Cannot be an absolute path
-  content_dir : __dirname + '/content/',
+  content_dir : __dirname + '/assets/content/',
 
   // Where is the public directory or document root?
-  public_dir  : __dirname + '/themes/default/public/',
+  public_dir  : __dirname + '/assets/',
 
   // The base URL of your images folder,
   // Relative to config.public_dir
@@ -50,7 +50,7 @@ var config = {
   allow_editing : false,
 
   // Set to true to enable HTTP Basic Authentication
-  authentication : true,
+  authentication : false,
   credentials    : [
     {
       username : 'admin',
