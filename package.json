@@ -21,11 +21,10 @@
       "url": "https://raw.githubusercontent.com/gilbitron/Raneto/master/LICENSE"
     }
   ],
-  "bin": "./bin/raneto",
   "main": "./app",
   "scripts": {
-    "start": "DEBUG=raneto node example/server.js",
-    "start_win": "set DEBUG=raneto&&node example/server.js",
+    "start": "DEBUG=raneto node server.js",
+    "start_win": "set DEBUG=raneto&&node server.js",
     "postinstall": "npm update && npm run gulp",
     "gulp": "gulp"
   },
