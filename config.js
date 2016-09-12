@@ -27,7 +27,7 @@ var config = {
   category_sort: true,
 
   // Which Theme to Use?
-  theme_dir  : __dirname + '/themes/',
+  theme_dir  : __dirname + '/node_modules/raneto/themes/',
   theme_name : 'default',
 
   // Specify the path of your content folder where all your '.md' files are located
